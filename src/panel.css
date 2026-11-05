@@ -1,0 +1,26 @@
+:host{all:initial;color-scheme:light dark;font:14px/1.45 system-ui,sans-serif;color:light-dark(#202124,#f0f2f4)}
+*,*::before,*::after{box-sizing:border-box}
+button,select,input{font:inherit;color:inherit}
+button,select,input[type=number]{border:1px solid light-dark(#b9c2c9,#5a626a);border-radius:7px;background:light-dark(#fff,#24292e);padding:5px 8px}
+button{cursor:pointer}
+button:disabled{cursor:default;opacity:.55}
+button:focus-visible,select:focus-visible,input:focus-visible{outline:2px solid #4f9dde;outline-offset:2px}
+.primary,.launcher{background:#075d53;color:white;border:1px solid #075d53;font-weight:650}
+.launcher{position:fixed;right:16px;bottom:99px;z-index:2147483646;padding:9px 13px;box-shadow:0 4px 15px #0003}
+dialog{margin:0;position:fixed;inset: auto 16px 16px auto;width:min(560px,calc(100vw - 32px));max-height:min(80vh,760px);
+  border:1px solid light-dark(#cbd3d9,#555e68);border-radius:14px;background:light-dark(#fff,#202428);
+  color:inherit;padding:0;box-shadow:0 8px 42px #0004}
+dialog::backdrop{background:#0003}
+.panel{display:flex;max-height:min(79vh,750px);flex-direction:column;padding:15px;gap:8px}
+h2,p{margin:0}h2{font-size:18px;overflow-wrap:anywhere}.heading,.bar,.foot{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.heading h2,.foot .spacer{flex:1}.foot{justify-content:flex-end}
+.note{font-size:12px;color:light-dark(#4e5d66,#bac4cb)}
+.list{flex:1;min-height:55px;overflow:auto;border-block:1px solid light-dark(#e1e4e8,#555e68)}
+.row{display:grid;grid-template-columns:20px 1fr auto;align-items:start;gap:7px;padding:8px 3px;border-bottom:1px solid light-dark(#edf0f1,#41484d)}
+.row input{margin-top:5px;accent-color:#168477}.row span{overflow-wrap:anywhere}
+.row button{font-size:12px;padding:2px 5px;margin-inline-start:3px}.role{font-size:12px;display:block;font-weight:700}
+.settings{display:grid;grid-template-columns:repeat(auto-fit,minmax(195px,1fr));gap:6px;padding:8px;border:1px solid #8886;border-radius:7px;
+  max-height:26vh;overflow:auto}
+.settings label{display:flex;align-items:center;gap:6px}.settings input[type=number]{width:72px}
+[hidden]{display:none!important}
+.status{min-height:1em;font-size:13px;overflow-wrap:anywhere}

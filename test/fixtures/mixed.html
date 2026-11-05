@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Optics fixture · 光学</title></head>
+<body>
+<nav><a aria-current="page" href="/c/fixture">Optics fixture</a></nav>
+<main>
+<article data-testid="conversation-turn-1" data-turn-id="turn-1">
+  <div data-message-author-role="user" data-message-id="u1"><p>QUESTION-ONE 请解释光学。 한글 日本語 🙂</p><time datetime="2026-11-04T20:00:00Z">20:00</time></div>
+  <a data-testid="file-card" href="sandbox:/mnt/data/input.pdf" download="input.pdf">input.pdf</a>
+</article>
+<article data-testid="conversation-turn-2" data-turn-id="turn-2">
+<div data-message-author-role="assistant" data-message-id="a2">
+  <section><h1>Optical analysis 光学分析</h1><h4>Line spread</h4>
+  <p>ANSWER-TWO <b>bold</b> <i>emphasis</i> <u>underlined</u> <del>removed</del>
+    <sup>2</sup><sub>0</sub> <mark>highlight</mark> <code>`a|b`</code>
+    Inline <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mi>x</mi><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">x^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true">DUPLICATE-RENDER</span></span>.
+    <a href="https://example.test/example?x=1&amp;y=2">external reference</a></p>
+  <p dir="rtl">مرحبا بالعالم</p>
+  <div class="katex-display"><span class="katex"><math display="block"><semantics><mfrac><mi>a</mi><mi>b</mi></mfrac><annotation encoding="application/x-tex">\frac{a}{b}</annotation></semantics></math></span></div>
+  <div data-latex="\begin{bmatrix}1&amp;2\\3&amp;4\end{bmatrix}" data-display="true"></div>
+  <div data-latex="\begin{cases}x,&amp;x\geq0\\-x,&amp;x&lt;0\end{cases}" data-display="true"></div>
+  <div data-latex="\begin{aligned}x&amp;=y+z\\y&amp;=z\end{aligned}" data-display="true"></div>
+  <ol start="4"><li>Level one<ul><li>Level two<ol><li>Level three<ul><li>Level four<ol><li>Level five</li></ol></li></ul></li></ol></li></ul></li><li value="8">Level one again</li></ol>
+  <blockquote>quoted <strong>text</strong><br>second line</blockquote><hr>
+  <pre><code class="language-python"><span data-line-number>1</span>def f(x):
+    return x + 1
+```
+print("中文")
+</code></pre>
+  <pre data-code="#include &lt;array&gt;&#10;int main() {}"><code class="language-cpp">CPP fallback</code></pre>
+  <pre><code class="language-json">{ "x": 1 }</code></pre>
+  <pre><code class="language-html">&lt;div&gt;literal&lt;/div&gt;</code></pre>
+  <pre><code class="language-mermaid">graph TD; A --&gt; B;</code></pre>
+  <table><thead><tr><th>Band</th><th>Value</th></tr></thead><tbody><tr><td>Visible</td><td><span data-tex="\sqrt{5}"></span></td></tr></tbody></table>
+  <table><caption>Merged cells</caption><thead><tr><th colspan="3">Spectral bands</th></tr></thead><tbody><tr><td rowspan="2">IR</td><td>Red</td><td>780 nm</td></tr><tr><td>Orange</td><td>620 nm</td></tr></tbody></table>
+  <figure><picture><img src="/media/transparency.png" data-original-src="/media/original.png" alt="Transparent figure"></picture><figcaption>Figure 1</figcaption></figure>
+  <p><img src="/media/second.png" alt="Second image"> <img src="/media/does-not-exist.png" alt="Missing image"> <img src="https://blocked.example/image.png" alt="Blocked remote image"></p>
+  <svg width="170" height="56" viewBox="0 0 170 56" aria-label="Mermaid graphic" xmlns="http://www.w3.org/2000/svg"><rect x="2" y="2" width="165" height="52" rx="6" fill="#226768"/><text x="16" y="32" fill="#fff">A to B</text></svg>
+  <canvas width="120" height="45" aria-label="Canvas chart"></canvas>
+  <p>Source <span data-testid="web-citation"><a href="https://example.org/paper">Paper (2025)</a></span> <button data-citation="internal-id">source label only</button></p>
+  <aside data-source-card><a href="https://example.org/source-2">Another source</a></aside>
+  <section data-testid="writing-block"><div contenteditable="true"><p>Editable draft mail</p></div><textarea aria-label="TXT window">TXT window first line
+TXT window last line</textarea></section>
+  <div data-widget="choice"><select aria-label="Route"><option>Old route</option><option selected>Visible route</option></select><input type="range" aria-label="Gain" value="32"></div>
+  <details><summary>Collapsed source</summary><p>DO-NOT-EXPORT-COLLAPSED</p></details>
+  <details open><summary>Open source</summary><p>Opened sources included.</p></details>
+  <custom-unfamiliar>Unknown fallback readable text</custom-unfamiliar>
+  <p aria-hidden="true">DO-NOT-EXPORT-HIDDEN</p>
+  <div data-message-author-role="assistant">Embedded authors should not become separate messages.</div>
+  <script>const c=document.querySelector('canvas').getContext('2d');c.fillStyle='#723f96';c.fillRect(0,0,120,45);c.fillStyle='white';c.fillText('Chart 01',8,25);</script>
+  </section>
+</div>
+<button data-testid="good-response-turn-action-button">Exclude toolbar</button>
+</article>
+<article data-testid="conversation-turn-3"><div data-message-author-role="user" data-message-id="u3"><p>QUESTION-THREE Follow-up</p></div></article>
+<article data-testid="conversation-turn-4"><div data-message-author-role="assistant" data-message-id="a4"><p>ANSWER-FOUR final message.</p></div></article>
+<article data-testid="conversation-turn-copy" hidden><div data-message-author-role="assistant" data-message-id="a4"><p>DO-NOT-EXPORT-BRANCH</p></div></article>
+<article data-testid="conversation-turn-system"><div data-message-author-role="system"><p>DO-NOT-EXPORT-SYSTEM</p></div></article>
+</main>
+</body></html>
